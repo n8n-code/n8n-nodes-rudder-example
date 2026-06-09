@@ -636,7 +636,7 @@ export const nodesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Node Id",
+			"displayName": "Node ID",
 			"name": "nodeId",
 			"required": true,
 			"description": "Id of the target node",
@@ -803,7 +803,7 @@ export const nodesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Node Id",
+			"displayName": "Node ID",
 			"name": "nodeId",
 			"required": true,
 			"description": "Id of the target node",
@@ -900,7 +900,7 @@ export const nodesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Node Id",
+			"displayName": "Node ID",
 			"name": "nodeId",
 			"required": true,
 			"description": "Id of the target node",
@@ -987,7 +987,7 @@ export const nodesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Node Id",
+			"displayName": "Node ID",
 			"name": "nodeId",
 			"required": true,
 			"description": "Id of the target node",
@@ -1184,7 +1184,7 @@ export const nodesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Node Id",
+			"displayName": "Node ID",
 			"name": "nodeId",
 			"required": true,
 			"description": "Id of the target node",
@@ -1246,7 +1246,7 @@ export const nodesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Node Id",
+			"displayName": "Node ID",
 			"name": "nodeId",
 			"required": true,
 			"description": "Id of the target node",

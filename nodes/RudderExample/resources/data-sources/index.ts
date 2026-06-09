@@ -239,7 +239,7 @@ export const dataSourcesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "test-data-source",
@@ -452,7 +452,7 @@ export const dataSourcesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Datasource Id",
+			"displayName": "Datasource ID",
 			"name": "datasourceId",
 			"required": true,
 			"description": "Id of the data source",
@@ -514,7 +514,7 @@ export const dataSourcesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Datasource Id",
+			"displayName": "Datasource ID",
 			"name": "datasourceId",
 			"required": true,
 			"description": "Id of the data source",
@@ -576,7 +576,7 @@ export const dataSourcesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Datasource Id",
+			"displayName": "Datasource ID",
 			"name": "datasourceId",
 			"required": true,
 			"description": "Id of the data source",
@@ -638,7 +638,7 @@ export const dataSourcesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Datasource Id",
+			"displayName": "Datasource ID",
 			"name": "datasourceId",
 			"required": true,
 			"description": "Id of the data source",
@@ -706,7 +706,7 @@ export const dataSourcesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "test-data-source",
@@ -875,7 +875,7 @@ export const dataSourcesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Node Id",
+			"displayName": "Node ID",
 			"name": "nodeId",
 			"required": true,
 			"description": "Id of the target node",
@@ -937,7 +937,7 @@ export const dataSourcesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Node Id",
+			"displayName": "Node ID",
 			"name": "nodeId",
 			"required": true,
 			"description": "Id of the target node",
@@ -955,7 +955,7 @@ export const dataSourcesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Datasource Id",
+			"displayName": "Datasource ID",
 			"name": "datasourceId",
 			"required": true,
 			"description": "Id of the data source",

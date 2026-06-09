@@ -203,7 +203,7 @@ export const directivesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "91252ea2-feb2-412d-8599-c6945fee02c4",
@@ -496,7 +496,7 @@ export const directivesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Directive Id",
+			"displayName": "Directive ID",
 			"name": "directiveId",
 			"required": true,
 			"description": "Id of the directive",
@@ -558,7 +558,7 @@ export const directivesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Directive Id",
+			"displayName": "Directive ID",
 			"name": "directiveId",
 			"required": true,
 			"description": "Id of the directive",
@@ -620,7 +620,7 @@ export const directivesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Directive Id",
+			"displayName": "Directive ID",
 			"name": "directiveId",
 			"required": true,
 			"description": "Id of the directive",
@@ -688,7 +688,7 @@ export const directivesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "91252ea2-feb2-412d-8599-c6945fee02c4",
@@ -991,7 +991,7 @@ export const directivesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Directive Id",
+			"displayName": "Directive ID",
 			"name": "directiveId",
 			"required": true,
 			"description": "Id of the directive",
@@ -1059,7 +1059,7 @@ export const directivesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "91252ea2-feb2-412d-8599-c6945fee02c4",

@@ -340,7 +340,7 @@ export const groupsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "32d013f7-b6d8-46c8-99d3-016307fa66c0",
@@ -509,7 +509,7 @@ export const groupsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "32d013f7-b6d8-46c8-99d3-016307fa66c0",
@@ -630,12 +630,12 @@ export const groupsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Group Category Id",
+			"displayName": "Group Category ID",
 			"name": "groupCategoryId",
 			"required": true,
-			"description": "Group category id",
 			"default": "e0a311fa-f7b2-4f9e-89a9-db517b9c6b90",
 			"type": "string",
+			"description": "Group category id",
 			"displayOptions": {
 				"show": {
 					"resource": [
@@ -692,12 +692,12 @@ export const groupsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Group Category Id",
+			"displayName": "Group Category ID",
 			"name": "groupCategoryId",
 			"required": true,
-			"description": "Group category id",
 			"default": "e0a311fa-f7b2-4f9e-89a9-db517b9c6b90",
 			"type": "string",
+			"description": "Group category id",
 			"displayOptions": {
 				"show": {
 					"resource": [
@@ -754,12 +754,12 @@ export const groupsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Group Category Id",
+			"displayName": "Group Category ID",
 			"name": "groupCategoryId",
 			"required": true,
-			"description": "Group category id",
 			"default": "e0a311fa-f7b2-4f9e-89a9-db517b9c6b90",
 			"type": "string",
+			"description": "Group category id",
 			"displayOptions": {
 				"show": {
 					"resource": [
@@ -937,7 +937,7 @@ export const groupsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Group Id",
+			"displayName": "Group ID",
 			"name": "groupId",
 			"required": true,
 			"description": "Id of the group",
@@ -999,7 +999,7 @@ export const groupsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Group Id",
+			"displayName": "Group ID",
 			"name": "groupId",
 			"required": true,
 			"description": "Id of the group",
@@ -1061,7 +1061,7 @@ export const groupsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Group Id",
+			"displayName": "Group ID",
 			"name": "groupId",
 			"required": true,
 			"description": "Id of the group",
@@ -1273,7 +1273,7 @@ export const groupsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Group Id",
+			"displayName": "Group ID",
 			"name": "groupId",
 			"required": true,
 			"description": "Id of the group",

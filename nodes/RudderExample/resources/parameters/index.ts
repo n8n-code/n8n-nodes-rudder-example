@@ -167,7 +167,7 @@ export const parametersDescription: INodeProperties[] = [
 		},
 		{
 			"required": true,
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "rudder_file_edit_footer",
@@ -286,7 +286,7 @@ export const parametersDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Parameter Id",
+			"displayName": "Parameter ID",
 			"name": "parameterId",
 			"required": true,
 			"description": "Id of the parameter to manage",
@@ -348,7 +348,7 @@ export const parametersDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Parameter Id",
+			"displayName": "Parameter ID",
 			"name": "parameterId",
 			"required": true,
 			"description": "Id of the parameter to manage",
@@ -410,7 +410,7 @@ export const parametersDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Parameter Id",
+			"displayName": "Parameter ID",
 			"name": "parameterId",
 			"required": true,
 			"description": "Id of the parameter to manage",

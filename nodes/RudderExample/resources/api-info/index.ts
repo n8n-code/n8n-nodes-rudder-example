@@ -15,8 +15,8 @@ export const apiInfoDescription: INodeProperties[] = [
 			},
 			"options": [
 				{
-					"name": "Api General Informations",
-					"value": "Api General Informations",
+					"name": "API General Informations",
+					"value": "API General Informations",
 					"action": "List all endoints",
 					"description": "List all endpoints and their version",
 					"routing": {
@@ -27,8 +27,8 @@ export const apiInfoDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Api Informations",
-					"value": "Api Informations",
+					"name": "API Informations",
+					"value": "API Informations",
 					"action": "Get information about one API endpoint",
 					"description": "Get the description and the list of supported version for one API endpoint",
 					"routing": {
@@ -39,8 +39,8 @@ export const apiInfoDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Api Sub Informations",
-					"value": "Api Sub Informations",
+					"name": "API Sub Informations",
+					"value": "API Sub Informations",
 					"action": "Get information on endpoint in a section",
 					"description": "Get all endpoints in the given section with their supported version.",
 					"routing": {
@@ -67,7 +67,7 @@ export const apiInfoDescription: INodeProperties[] = [
 						"API Info"
 					],
 					"operation": [
-						"Api General Informations"
+						"API General Informations"
 					]
 				}
 			}
@@ -92,7 +92,7 @@ export const apiInfoDescription: INodeProperties[] = [
 						"API Info"
 					],
 					"operation": [
-						"Api General Informations"
+						"API General Informations"
 					]
 				}
 			}
@@ -111,7 +111,7 @@ export const apiInfoDescription: INodeProperties[] = [
 						"API Info"
 					],
 					"operation": [
-						"Api Informations"
+						"API Informations"
 					]
 				}
 			}
@@ -129,7 +129,7 @@ export const apiInfoDescription: INodeProperties[] = [
 						"API Info"
 					],
 					"operation": [
-						"Api Informations"
+						"API Informations"
 					]
 				}
 			}
@@ -154,7 +154,7 @@ export const apiInfoDescription: INodeProperties[] = [
 						"API Info"
 					],
 					"operation": [
-						"Api Informations"
+						"API Informations"
 					]
 				}
 			}
@@ -173,13 +173,13 @@ export const apiInfoDescription: INodeProperties[] = [
 						"API Info"
 					],
 					"operation": [
-						"Api Sub Informations"
+						"API Sub Informations"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Section Id",
+			"displayName": "Section ID",
 			"name": "sectionId",
 			"required": true,
 			"description": "Id of the API section",
@@ -191,7 +191,7 @@ export const apiInfoDescription: INodeProperties[] = [
 						"API Info"
 					],
 					"operation": [
-						"Api Sub Informations"
+						"API Sub Informations"
 					]
 				}
 			}
@@ -216,7 +216,7 @@ export const apiInfoDescription: INodeProperties[] = [
 						"API Info"
 					],
 					"operation": [
-						"Api Sub Informations"
+						"API Sub Informations"
 					]
 				}
 			}

@@ -153,7 +153,7 @@ export const settingsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Node Id",
+			"displayName": "Node ID",
 			"name": "nodeId",
 			"required": true,
 			"description": "Policy server ID for which you want to manage allowed networks.",
@@ -215,7 +215,7 @@ export const settingsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Node Id",
+			"displayName": "Node ID",
 			"name": "nodeId",
 			"required": true,
 			"description": "Policy server ID for which you want to manage allowed networks.",
@@ -302,7 +302,7 @@ export const settingsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Node Id",
+			"displayName": "Node ID",
 			"name": "nodeId",
 			"required": true,
 			"description": "Policy server ID for which you want to manage allowed networks.",
@@ -388,7 +388,7 @@ export const settingsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Setting Id",
+			"displayName": "Setting ID",
 			"name": "settingId",
 			"required": true,
 			"description": "Id of the setting to set",
@@ -450,7 +450,7 @@ export const settingsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Setting Id",
+			"displayName": "Setting ID",
 			"name": "settingId",
 			"required": true,
 			"description": "Id of the setting to set",

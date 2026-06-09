@@ -8,7 +8,7 @@ import type {
 export class RudderExampleApi implements ICredentialType {
 	name = 'N8nDevRudderExampleApi';
 
-	displayName = 'rudder-example API';
+	displayName = 'Rudder Example API';
 
 	icon: Icon = { light: 'file:../nodes/RudderExample/rudder-example.png', dark: 'file:../nodes/RudderExample/rudder-example.dark.png' };
 
@@ -22,7 +22,7 @@ export class RudderExampleApi implements ICredentialType {
 			default: 'https://rudder.example.local/rudder/api/latest/',
 			required: true,
 			placeholder: 'https://rudder.example.local/rudder/api/latest/',
-			description: 'The base URL of your rudder-example API server',
+			description: 'The base URL of your Rudder Example API server',
 		},
 		{
 			displayName: 'API Key',

@@ -135,8 +135,8 @@ export const techniquesDescription: INodeProperties[] = [
 					}
 				},
 				{
-					"name": "Get Technique All Version Id",
-					"value": "Get Technique All Version Id",
+					"name": "Get Technique All Version ID",
+					"value": "Get Technique All Version ID",
 					"action": "Technique metadata by version and ID",
 					"description": "Get Technique metadata",
 					"routing": {
@@ -546,7 +546,7 @@ export const techniquesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Technique Id",
+			"displayName": "Technique ID",
 			"name": "techniqueId",
 			"required": true,
 			"description": "Technique ID",
@@ -608,7 +608,7 @@ export const techniquesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Technique Id",
+			"displayName": "Technique ID",
 			"name": "techniqueId",
 			"required": true,
 			"description": "Technique ID",
@@ -670,7 +670,7 @@ export const techniquesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Technique Id",
+			"displayName": "Technique ID",
 			"name": "techniqueId",
 			"required": true,
 			"description": "Technique ID",
@@ -744,13 +744,13 @@ export const techniquesDescription: INodeProperties[] = [
 						"Techniques"
 					],
 					"operation": [
-						"Get Technique All Version Id"
+						"Get Technique All Version ID"
 					]
 				}
 			}
 		},
 		{
-			"displayName": "Technique Id",
+			"displayName": "Technique ID",
 			"name": "techniqueId",
 			"required": true,
 			"description": "Technique ID",
@@ -762,7 +762,7 @@ export const techniquesDescription: INodeProperties[] = [
 						"Techniques"
 					],
 					"operation": [
-						"Get Technique All Version Id"
+						"Get Technique All Version ID"
 					]
 				}
 			}
@@ -780,7 +780,7 @@ export const techniquesDescription: INodeProperties[] = [
 						"Techniques"
 					],
 					"operation": [
-						"Get Technique All Version Id"
+						"Get Technique All Version ID"
 					]
 				}
 			}
@@ -805,7 +805,7 @@ export const techniquesDescription: INodeProperties[] = [
 						"Techniques"
 					],
 					"operation": [
-						"Get Technique All Version Id"
+						"Get Technique All Version ID"
 					]
 				}
 			}
@@ -830,7 +830,7 @@ export const techniquesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Technique Id",
+			"displayName": "Technique ID",
 			"name": "techniqueId",
 			"required": true,
 			"description": "Technique ID",
@@ -931,7 +931,7 @@ export const techniquesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Technique Id",
+			"displayName": "Technique ID",
 			"name": "techniqueId",
 			"required": true,
 			"description": "Technique ID",
@@ -1011,7 +1011,7 @@ export const techniquesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Technique Id",
+			"displayName": "Technique ID",
 			"name": "techniqueId",
 			"required": true,
 			"description": "Technique ID",
@@ -1091,7 +1091,7 @@ export const techniquesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Technique Id",
+			"displayName": "Technique ID",
 			"name": "techniqueId",
 			"required": true,
 			"description": "Technique ID",

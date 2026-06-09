@@ -265,7 +265,7 @@ export const cveDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Api Key",
+			"displayName": "API Key",
 			"name": "apiKey",
 			"type": "string",
 			"default": "",
@@ -290,7 +290,7 @@ export const cveDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Url",
+			"displayName": "URL",
 			"name": "url",
 			"type": "string",
 			"default": "https://api.rudder.io/cve/v1/",
@@ -471,7 +471,7 @@ export const cveDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Url",
+			"displayName": "URL",
 			"name": "url",
 			"type": "string",
 			"default": "https://nvd.nist.gov/feeds/json/cve/1.1",

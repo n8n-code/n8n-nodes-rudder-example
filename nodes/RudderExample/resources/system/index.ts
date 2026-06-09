@@ -404,9 +404,9 @@ export const systemDescription: INodeProperties[] = [
 			"displayName": "Archive Restore Kind",
 			"name": "archiveRestoreKind",
 			"required": true,
-			"description": "What archive to restore (latest archive, latest commit in configuration repository, or archive with ID as given by listArchive)",
 			"default": "latestCommit",
 			"type": "options",
+			"description": "What archive to restore (latest archive, latest commit in configuration repository, or archive with ID as given by listArchive)",
 			"options": [
 				{
 					"name": "Latest Archive",
@@ -517,7 +517,7 @@ export const systemDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Commit Id",
+			"displayName": "Commit ID",
 			"name": "commitId",
 			"required": true,
 			"description": "commit ID of the archive to get as a ZIP file",

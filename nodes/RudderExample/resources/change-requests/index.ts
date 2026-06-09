@@ -177,12 +177,12 @@ export const changeRequestsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Change Request Id",
+			"displayName": "Change Request ID",
 			"name": "changeRequestId",
 			"required": true,
-			"description": "Change request id",
 			"default": 37,
 			"type": "number",
+			"description": "Change request id",
 			"displayOptions": {
 				"show": {
 					"resource": [
@@ -239,12 +239,12 @@ export const changeRequestsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Change Request Id",
+			"displayName": "Change Request ID",
 			"name": "changeRequestId",
 			"required": true,
-			"description": "Change request id",
 			"default": 37,
 			"type": "number",
+			"description": "Change request id",
 			"displayOptions": {
 				"show": {
 					"resource": [
@@ -301,12 +301,12 @@ export const changeRequestsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Change Request Id",
+			"displayName": "Change Request ID",
 			"name": "changeRequestId",
 			"required": true,
-			"description": "Change request id",
 			"default": 37,
 			"type": "number",
+			"description": "Change request id",
 			"displayOptions": {
 				"show": {
 					"resource": [
@@ -413,12 +413,12 @@ export const changeRequestsDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Change Request Id",
+			"displayName": "Change Request ID",
 			"name": "changeRequestId",
 			"required": true,
-			"description": "Change request id",
 			"default": 37,
 			"type": "number",
+			"description": "Change request id",
 			"displayOptions": {
 				"show": {
 					"resource": [

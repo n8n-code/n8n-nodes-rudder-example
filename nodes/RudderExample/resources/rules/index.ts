@@ -301,7 +301,7 @@ export const rulesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "0c1713ae-cb9d-4f7b-abda-ca38c5d643ea",
@@ -544,7 +544,7 @@ export const rulesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "32d013f7-b6d8-46c8-99d3-016307fa66c0",
@@ -665,12 +665,12 @@ export const rulesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Rule Category Id",
+			"displayName": "Rule Category ID",
 			"name": "ruleCategoryId",
 			"required": true,
-			"description": "Rule category id",
 			"default": "e0a311fa-f7b2-4f9e-89a9-db517b9c6b90",
 			"type": "string",
+			"description": "Rule category id",
 			"displayOptions": {
 				"show": {
 					"resource": [
@@ -727,12 +727,12 @@ export const rulesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Rule Category Id",
+			"displayName": "Rule Category ID",
 			"name": "ruleCategoryId",
 			"required": true,
-			"description": "Rule category id",
 			"default": "e0a311fa-f7b2-4f9e-89a9-db517b9c6b90",
 			"type": "string",
+			"description": "Rule category id",
 			"displayOptions": {
 				"show": {
 					"resource": [
@@ -789,12 +789,12 @@ export const rulesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Rule Category Id",
+			"displayName": "Rule Category ID",
 			"name": "ruleCategoryId",
 			"required": true,
-			"description": "Rule category id",
 			"default": "e0a311fa-f7b2-4f9e-89a9-db517b9c6b90",
 			"type": "string",
+			"description": "Rule category id",
 			"displayOptions": {
 				"show": {
 					"resource": [
@@ -972,7 +972,7 @@ export const rulesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Rule Id",
+			"displayName": "Rule ID",
 			"name": "ruleId",
 			"required": true,
 			"description": "Id of the target rule",
@@ -1034,7 +1034,7 @@ export const rulesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Rule Id",
+			"displayName": "Rule ID",
 			"name": "ruleId",
 			"required": true,
 			"description": "Id of the target rule",
@@ -1096,7 +1096,7 @@ export const rulesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Rule Id",
+			"displayName": "Rule ID",
 			"name": "ruleId",
 			"required": true,
 			"description": "Id of the target rule",
@@ -1214,7 +1214,7 @@ export const rulesDescription: INodeProperties[] = [
 			}
 		},
 		{
-			"displayName": "Id",
+			"displayName": "ID",
 			"name": "id",
 			"type": "string",
 			"default": "0c1713ae-cb9d-4f7b-abda-ca38c5d643ea",

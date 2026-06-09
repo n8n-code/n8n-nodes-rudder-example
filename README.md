@@ -53,28 +53,259 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| API Info | Get list all endoints, Get information about one api endpoint, Get information on endpoint in a section |
-| Status | Get check if rudder is alive |
-| Compliance | Get global compliance, Get compliance details for all nodes, Get compliance details by node, Get compliance details for all rules, Get compliance details by rule |
-| Rules | Get list all rules, Put create a rule, Put create a rule category, Delete group category, Get rule category details, Post update rule category details, Get rules tree, Delete a rule, Get a rule details, Post update a rule details |
-| Directives | Get list all directives, Put create a directive, Delete a directive, Get directive details, Post update a directive details, Post check that update on a directive is valid |
-| Techniques | Get list methods, Post reload methods, Get list all techniques, Put create technique, Get list categories, Post reload techniques, Get list versions, Get technique metadata by id, Get list all directives based on a technique, Delete technique, Get technique metadata by version and id, Post update technique, Get list all directives based on a version of a technique, Get techniques resources, Get techniques revisions |
-| Groups | Get list all groups, Put create a group, Put create a group category, Delete group category, Get group category details, Post update group category details, Get groups tree, Delete a group, Get group details, Post update group details, Post reload a group |
-| Nodes | Get list managed nodes, Put create one or several new nodes, Post trigger an agent run on all nodes, Get list pending nodes, Post update pending node status, Get nodes acceptation status, Delete a node, Get information about a node, Post update node settings and properties, Post trigger an agent run, Get inherited node properties for a node |
-| Inventories | Get information about inventory processing queue, Post upload an inventory for processing, Post restart inventory watcher, Post start inventory watcher, Post stop inventory watcher |
-| Parameters | Get list all global parameters, Put create a new parameter, Delete a parameter, Get the value of a parameter, Post update a parameters value |
-| Archives | Get a zip archive of the requested items and their dependencies, Post import a zip archive of policies into rudder |
-| Settings | Get list all settings, Get allowed networks for a policy server, Post set allowed networks for a policy server, Post modify allowed networks for a policy server, Get the value of a setting, Post set the value of a setting |
-| System | Get list archives, Post create an archive, Post restore an archive, Get an archive as a zip, Get healthcheck, Get server information, Post trigger batch for cleaning unreferenced software, Post trigger a new policy generation, Post reload both techniques and dynamic groups, Post reload dynamic groups, Post reload techniques, Get server status, Post trigger update of policies |
-| 🧩 Change Requests | Get list all change requests, Delete decline a request details, Get a change request details, Post update a request details, Post accept a request details, Get list user, Post update validated user list, Delete remove an user from validated user list |
-| 🧩 CVE | Get all cve details, Post trigger a cve check, Get cve check config, Post update cve check config, Get last cve check result, Post get a list of cve details, Post update cve database from remote source, Post update cve database from file system |
-| 🧩 Data Sources | Get list all data sources, Put create a data source, Post update properties from data sources, Post update properties from data sources, Delete a data source, Get data source configuration, Post update a data source configuration, Post update properties for one node from all data sources, Post update properties for one node from a data source |
-| 🧩 Scale Out Relay | Post demote a relay to simple node, Post promote a node to relay |
-| 🧩 User Management | Post add user, Get list all roles, Post update users infos, Get list all users, Get reload user, Delete an user |
-| 🧩 Branding | Get branding configuration, Post update web interface customization, Post reload branding file |
-| 🧩 Secret Management | Get list all secrets, Post update a secret, Put create a secret, Delete a secret, Get one secret |
+<details>
+<summary><b>API Info</b> (3 operations)</summary>
+
+- Get List all endoints
+- Get information about one API endpoint
+- Get information on endpoint in a section
+
+</details>
+
+<details>
+<summary><b>Status</b> (1 operations)</summary>
+
+- Get Check if Rudder is alive
+
+</details>
+
+<details>
+<summary><b>Compliance</b> (5 operations)</summary>
+
+- Get Global compliance
+- Get Compliance details for all nodes
+- Get Compliance details by node
+- Get Compliance details for all rules
+- Get Compliance details by rule
+
+</details>
+
+<details>
+<summary><b>Rules</b> (10 operations)</summary>
+
+- Get List all rules
+- Put Create a rule
+- Put Create a rule category
+- Delete group category
+- Get rule category details
+- Post Update rule category details
+- Get rules tree
+- Delete a rule
+- Get a rule details
+- Post Update a rule details
+
+</details>
+
+<details>
+<summary><b>Directives</b> (6 operations)</summary>
+
+- Get List all directives
+- Put Create a directive
+- Delete a directive
+- Get directive details
+- Post Update a directive details
+- Post Check that update on a directive is valid
+
+</details>
+
+<details>
+<summary><b>Techniques</b> (15 operations)</summary>
+
+- Get List methods
+- Post Reload methods
+- Get List all techniques
+- Put Create technique
+- Get List categories
+- Post Reload techniques
+- Get List versions
+- Get Technique metadata by ID
+- Get List all directives based on a technique
+- Delete technique
+- Get Technique metadata by version and ID
+- Post Update technique
+- Get List all directives based on a version of a technique
+- Get Technique s resources
+- Get Technique s revisions
+
+</details>
+
+<details>
+<summary><b>Groups</b> (11 operations)</summary>
+
+- Get List all groups
+- Put Create a group
+- Put Create a group category
+- Delete group category
+- Get group category details
+- Post Update group category details
+- Get groups tree
+- Delete a group
+- Get group details
+- Post Update group details
+- Post Reload a group
+
+</details>
+
+<details>
+<summary><b>Nodes</b> (11 operations)</summary>
+
+- Get List managed nodes
+- Put Create one or several new nodes
+- Post Trigger an agent run on all nodes
+- Get List pending nodes
+- Post Update pending Node status
+- Get nodes acceptation status
+- Delete a node
+- Get information about a node
+- Post Update node settings and properties
+- Post Trigger an agent run
+- Get inherited node properties for a node
+
+</details>
+
+<details>
+<summary><b>Inventories</b> (5 operations)</summary>
+
+- Get information about inventory processing queue
+- Post Upload an inventory for processing
+- Post Restart inventory watcher
+- Post Start inventory watcher
+- Post Stop inventory watcher
+
+</details>
+
+<details>
+<summary><b>Parameters</b> (5 operations)</summary>
+
+- Get List all global parameters
+- Put Create a new parameter
+- Delete a parameter
+- Get the value of a parameter
+- Post Update a parameter s value
+
+</details>
+
+<details>
+<summary><b>Archives</b> (2 operations)</summary>
+
+- Get a ZIP archive of the requested items and their dependencies
+- Post Import a ZIP archive of policies into Rudder
+
+</details>
+
+<details>
+<summary><b>Settings</b> (6 operations)</summary>
+
+- Get List all settings
+- Get allowed networks for a policy server
+- Post Set allowed networks for a policy server
+- Post Modify allowed networks for a policy server
+- Get the value of a setting
+- Post Set the value of a setting
+
+</details>
+
+<details>
+<summary><b>System</b> (13 operations)</summary>
+
+- Get List archives
+- Post Create an archive
+- Post Restore an archive
+- Get an archive as a ZIP
+- Get healthcheck
+- Get server information
+- Post Trigger batch for cleaning unreferenced software
+- Post Trigger a new policy generation
+- Post Reload both techniques and dynamic groups
+- Post Reload dynamic groups
+- Post Reload techniques
+- Get server status
+- Post Trigger update of policies
+
+</details>
+
+<details>
+<summary><b>🧩 Change Requests</b> (8 operations)</summary>
+
+- Get List all change requests
+- Delete Decline a request details
+- Get a change request details
+- Post Update a request details
+- Post Accept a request details
+- Get List user
+- Post Update validated user list
+- Delete Remove an user from validated user list
+
+</details>
+
+<details>
+<summary><b>🧩 CVE</b> (8 operations)</summary>
+
+- Get all CVE details
+- Post Trigger a CVE check
+- Get CVE check config
+- Post Update cve check config
+- Get last CVE check result
+- Post Get a list of CVE details
+- Post Update CVE database from remote source
+- Post Update CVE database from file system
+
+</details>
+
+<details>
+<summary><b>🧩 Data Sources</b> (9 operations)</summary>
+
+- Get List all data sources
+- Put Create a data source
+- Post Update properties from data sources
+- Post Update properties from data sources
+- Delete a data source
+- Get data source configuration
+- Post Update a data source configuration
+- Post Update properties for one node from all data sources
+- Post Update properties for one node from a data source
+
+</details>
+
+<details>
+<summary><b>🧩 Scale Out Relay</b> (2 operations)</summary>
+
+- Post Demote a relay to simple node
+- Post Promote a node to relay
+
+</details>
+
+<details>
+<summary><b>🧩 User Management</b> (6 operations)</summary>
+
+- Post Add user
+- Get List all roles
+- Post Update user s infos
+- Get List all users
+- Get Reload user
+- Delete an user
+
+</details>
+
+<details>
+<summary><b>🧩 Branding</b> (3 operations)</summary>
+
+- Get branding configuration
+- Post Update web interface customization
+- Post Reload branding file
+
+</details>
+
+<details>
+<summary><b>🧩 Secret Management</b> (5 operations)</summary>
+
+- Get List all secrets
+- Post Update a secret
+- Put Create a secret
+- Delete a secret
+- Get one secret
+
+</details>
 
 ---
 

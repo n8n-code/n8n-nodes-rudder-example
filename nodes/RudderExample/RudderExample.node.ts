@@ -22,14 +22,14 @@ import { secretManagementDescription } from './resources/secret-management';
 
 export class RudderExample implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'rudder-example',
+		displayName: 'Rudder Example',
 		name: 'N8nDevRudderExample',
 		icon: { light: 'file:./rudder-example.png', dark: 'file:./rudder-example.dark.png' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
 		description: 'Download OpenAPI specification: openapi.yml',
-		defaults: { name: 'rudder-example' },
+		defaults: { name: 'Rudder Example' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],
